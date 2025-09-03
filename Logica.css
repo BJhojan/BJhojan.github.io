@@ -1,0 +1,31 @@
+h2 {
+    margin: 0;
+}
+h1,#proposition {
+    display: inline;
+}
+#connectors,#description {
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#main {
+    display: flex;
+}
+button {
+    width: 25px;
+}
+p{
+    display: inline;
+}
+#delete {
+    width: auto;
+}
+th,td {
+    padding: 10px;
+}
+table,th,td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
