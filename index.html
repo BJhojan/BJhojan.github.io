@@ -3,34 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Logica.css">
-    <title>Logica work</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Triki</title>
 </head>
 <body>
-    <div><h1>Proposicion: <div id="proposition"></div></h1></div>
-    <div id="main">
-        <div id="description">
-            <h2>Conjuncion</h2>
-            <h2>Disyuncion</h2>
-            <h2>Implicacion</h2>
-            <h2>Equivalencia</h2>
-            <h2>Negacion</h2>
-            <h2>Proposiciones</h2>
-            <h2>Parentesis</h2>
+    <div id="table">
+        <div id="top" class="space">
+            <div class="block" ><p id="1"></p></div>
+            <div class="block" ><p id="2"></p></div>
+            <div class="block" ><p id="3"></p></div>
         </div>
-        <div id="connectors">
-            <button>Ʌ</button>
-            <button>V</button>
-            <button>→</button>
-            <button>↔</button>
-            <button>-</button>
-            <div id="p"><button>p</button></div>
-            <div><button>(</button> <button>)</button></div>
+        <div id="middle" class="space">
+            <div class="block" ><p id="4"></p></div>
+            <div class="block" ><p id="5"></p></div>
+            <div class="block" ><p id="6"></p></div>
+        </div>
+        <div id="bottom" class="space">
+            <div class="block" ><p id="7"></p></div>
+            <div class="block" ><p id="8"></p></div>
+            <div class="block" ><p id="9"></p></div>
         </div>
     </div>
-    <button id="delete">Borrar</button>
-    <table id="table">
-    </table>
-    <script src="Logica.js"></script>
+    <div id="information">
+        <div id="data">
+
+            
+            <!-- From Uiverse.io by PriyanshuGupta28 -->
+            <H2>AUTO X</H2>
+            <div class="flipswitch">
+                <input checked="" id="fs" class="flipswitch-cb" name="flipswitch" type="checkbox">
+                <label for="fs" class="flipswitch-label">
+                    <div class="flipswitch-inner"></div>
+                    <div class="flipswitch-switch"></div>
+                </label>
+            </div>
+            <H2>AUTO O</H2>
+            <div class="flipswitch2">
+                <input checked="" id="fs2" class="flipswitch2-cb" name="flipswitch2" type="checkbox">
+                <label for="fs2" class="flipswitch2-label">
+                    <div class="flipswitch2-inner"></div>
+                    <div class="flipswitch2-switch"></div>
+                </label>
+            </div>
+            <!-- From Uiverse.io by Samiix10 -->
+            <!-- From Uiverse.io by tiagoadag1203 -->
+            <input type="text" name="text" class="input" placeholder="Repeticiones" id="resets" value="1"/>
+        </div>
+    </div>
+
+
+    <script src="code.js"></script>
 </body>
 </html>
