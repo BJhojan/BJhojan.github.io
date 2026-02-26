@@ -227,6 +227,7 @@ function change(params) {
         if (resets[1] == resets[0].value) {
             resets[1] = 0
             console.log(winCounter)
+            winCounter = [0,0,0]
             return
         }
     }
